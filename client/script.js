@@ -85,7 +85,10 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
+<<<<<<< HEAD
 
+=======
+>>>>>>> c99ae6f471f932ed58c899f3e0582b18ad0102a6
     const response = await fetch('http://localhost:5000', {
         method: 'POST',
         headers: {
